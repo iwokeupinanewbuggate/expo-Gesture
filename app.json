@@ -55,22 +55,8 @@
           "motionPermission": "Allow $(PRODUCT_NAME) to access your device motion."
         }
       ],
-      [
-        "react-native-health",
-        [
-          "expo-build-properties",
-          {
-            "android": {
-              "compileSdkVersion": 33,
-              "targetSdkVersion": 33,
-              "buildToolsVersion": "33.0.0",
-              "minSdkVersion": 26
-            }
-          }
-        ]
-      ],
-      "expo-build-properties",
-      "./androidManifestPlugin.js"
+
+      "expo-build-properties"
     ],
     "experiments": {
       "typedRoutes": true
